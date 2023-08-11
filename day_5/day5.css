@@ -1,0 +1,40 @@
+/* Universal Selector */
+*{
+    margin: 5%;
+}
+
+/* Type Selector */
+body {
+    color: cadetblue;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+.first {
+    color: black;
+}
+
+.large{
+    font-size: 30px;
+}
+
+/* ID Selector */
+#eklist {
+    background-color:brown;
+}
+
+/* Attribute Selector */
+a[href="upflairs.com"] {
+    color: red;
+    text-decoration: none;
+}
+input[type="text"]{
+    background-color: blue;
+    color: white;
+}
+
+/* Pseudo Selector */
+.first:hover{
+    color: white;
+}
